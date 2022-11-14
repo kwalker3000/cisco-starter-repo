@@ -23,9 +23,10 @@
   transform: scale(0.45);
 }
 
-/* Tab Container */
+/* Exibit Container */
 .Tabs {
   width: 80%;
+  width: 800px;
   height: auto;
   min-height: 400px;
   background: #0d274d;
@@ -80,4 +81,10 @@
   display: block;
   font-size: 2rem;
   text-align: center;
+}
+
+// ClientIP
+
+.ip-address {
+  font-size: 1em;
 }

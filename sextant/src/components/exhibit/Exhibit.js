@@ -1,4 +1,5 @@
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
+import ClientIP from "./ClientIP";
 
 const Exhibit = () => {
   return (
@@ -6,15 +7,15 @@ const Exhibit = () => {
       <div>
         <Tabs className="Tabs">
           <TabList>
-            <Tab>Tab 1</Tab>
-            <Tab>Tab 2</Tab>
+            <Tab>ipv4</Tab>
+            <Tab>iPv6</Tab>
             <Tab>Tab 3</Tab>
           </TabList>
           <TabPanel>
-            <p>Tab 1 works!</p>
+            <ClientIP path="api" />
           </TabPanel>
           <TabPanel>
-            <p>Tab 2 works!</p>
+            <ClientIP path="api64" />
           </TabPanel>
           <TabPanel>
             <p>Tab 3 works!</p>
